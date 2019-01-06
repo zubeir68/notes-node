@@ -16,25 +16,37 @@ Install npm packages
 npm install
 ```
 
-### Break down into end to end tests
+## How to use the application
 
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-### And coding style tests
-
-Explain what these tests test and why
+How to add a note 
 
 ```
-Give an example
+node app.js add -t='new-title' -b='new-body'
 ```
 
-## Deployment
+How to remove a note
 
-Add additional notes about how to deploy this on a live system
+```
+node app.js remove -t='title-of-note'
+```
+
+How to read a note
+
+```
+node app.js read -t='title-of-note'
+```
+
+How to list all notes
+
+```
+node app.js list
+```
+
+How to edit notes
+
+```
+node app.js edit -t='title-of-note' -b='new-body'
+```
 
 ## Built With
 
